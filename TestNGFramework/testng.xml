@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners><listener class-name="com.automation.utility.EventListenersUtility"></listener></listeners>
+  <test name="chormeTest">
+	  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.automation.testscripts.AutomationScripts">
+		     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

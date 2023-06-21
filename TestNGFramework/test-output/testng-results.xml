@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="36" total="37" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T20:03:43 PDT" name="Suite" finished-at="2023-06-20T20:04:05 PDT" duration-ms="21641">
+    <groups>
+    </groups>
+    <test started-at="2023-06-20T20:03:43 PDT" name="chormeTest" finished-at="2023-06-20T20:04:05 PDT" duration-ms="21641">
+      <class name="com.automation.testscripts.AutomationScripts">
+        <test-method is-config="true" signature="setUpForBeforeTest()[pri:0, instance:com.automation.testscripts.AutomationScripts@592e843a]" started-at="2023-06-20T20:03:44 PDT" name="setUpForBeforeTest" finished-at="2023-06-20T20:03:44 PDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeTest -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.AutomationScripts@592e843a]" started-at="2023-06-20T20:03:44 PDT" name="setUpForBeforeMethod" finished-at="2023-06-20T20:03:47 PDT" duration-ms="2869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="View_Contact_Details_FromView_TestScript_29()[pri:0, instance:com.automation.testscripts.AutomationScripts@592e843a]" started-at="2023-06-20T20:03:47 PDT" name="View_Contact_Details_FromView_TestScript_29" finished-at="2023-06-20T20:04:05 PDT" duration-ms="18338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_Contact_Details_FromView_TestScript_29 -->
+        <test-method is-config="true" signature="tearDownAfterMethod()[pri:0, instance:com.automation.testscripts.AutomationScripts@592e843a]" started-at="2023-06-20T20:04:05 PDT" name="tearDownAfterMethod" finished-at="2023-06-20T20:04:05 PDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+      </class> <!-- com.automation.testscripts.AutomationScripts -->
+    </test> <!-- chormeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
